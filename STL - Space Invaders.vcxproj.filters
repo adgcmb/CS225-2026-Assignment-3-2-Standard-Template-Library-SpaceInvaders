@@ -31,6 +31,13 @@
     <ClCompile Include="src\Components\render_component.cc">
       <Filter>Components</Filter>
     </ClCompile>
+    <ClCompile Include="src\EnemyShip.cc" />
+    <ClCompile Include="src\Squadron.cc" />
+    <ClCompile Include="src\Player.cc" />
+    <ClCompile Include="src\Bullet.cc" />
+    <ClCompile Include="src\BulletPool.cc" />
+    <ClCompile Include="src\EventManager.cc" />
+    <ClCompile Include="src\CollisionEventManager.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Levels\Level 1.h">
@@ -51,5 +58,12 @@
     <ClInclude Include="src\Framework\event.hh">
       <Filter>Framework</Filter>
     </ClInclude>
+    <ClInclude Include="src\EnemyShip.hh" />
+    <ClInclude Include="src\Squadron.hh" />
+    <ClInclude Include="src\Player.hh" />
+    <ClInclude Include="src\Bullet.hh" />
+    <ClInclude Include="src\BulletPool.hh" />
+    <ClInclude Include="src\EventManager.hh" />
+    <ClInclude Include="src\CollisionEventManager.hh" />
   </ItemGroup>
 </Project>
